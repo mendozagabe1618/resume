@@ -41,7 +41,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -80,25 +80,18 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Résumé}
-  {\thepage}
-
+% \makecvfooter
+%   {\today}
+  
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
-\input{resume/experience.tex}
-\input{resume/honors.tex}
-\input{resume/presentation.tex}
-\input{resume/writing.tex}
-\input{resume/committees.tex}
-\input{resume/education.tex}
-\input{resume/extracurricular.tex}
-
+\input{resume/Education.tex}
+\input{resume/TechnicalSkills.tex}
+\input{resume/Experience.tex}
+\input{resume/Projects.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
